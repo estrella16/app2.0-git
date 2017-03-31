@@ -1,0 +1,359 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion movil</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app3.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+   <script type="text/javascript">
+   
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/evolucion2.jpg','imagenes/futuro2.jpg','imagenes/definicion1.jpg','imagenes/gama2.jpg','imagenes/red2.jpg')">
+
+   <div data-role="page" id="Principal" data-theme="c">
+    <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar"  data-back-btn-theme="c">
+     <h2>Telefonia celular </h2>
+   
+   </div>
+    <div data-role="main" class="ui-content">
+  
+   <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿Que es un telefono celular? </h2>
+        <p>Definicion</p>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Historia del Telefono Celular </h2>
+        <p>Muestra quien fue el creador del telefono y su evolucion</p>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Clasificacion de los celulares de acuerdo a su gama</h2>
+        <p>Muestra la clasificacion de los celulares gama alta,media y baja</p>
+       </a>
+    </li>     
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Compañias en Mexico que manejan el servicio de telefonia</h2>
+        <p>Muestra algunas compañias de mexico encargadas del servicio telefonico</p>
+       </a>
+    </li>         
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Telefonos del futuro</h2>
+        <p>Se muestra algunos prototipos de telefonos </p>
+       </a> 
+     </li>
+     </ul>
+    </div>
+<br>
+<br>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/definicion1.jpg" alt="definicion1" title="definicion1" id="wows1_0"/></li>
+		<li><img src="data1/images/definicion2.jpg" alt="definicion2" title="definicion2" id="wows1_1"/></li>
+		<li><img src="data1/images/evolucion.jpg" alt="evolucion" title="evolucion" id="wows1_2"/></li>
+		<li><img src="data1/images/evolucion1.jpg" alt="evolucion1" title="evolucion1" id="wows1_3"/></li>
+		<li><img src="data1/images/evolucion2.jpg" alt="evolucion2" title="evolucion2" id="wows1_4"/></li>
+		<li><img src="data1/images/futuro.jpg" alt="futuro" title="futuro" id="wows1_5"/></li>
+		<li><img src="data1/images/futuro2.jpg" alt="futuro2" title="futuro2" id="wows1_6"/></li>
+		<li><img src="data1/images/gama.png" alt="gama" title="gama" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/logo.png" alt="image slider" title="logo" id="wows1_8"/></a></li>
+		<li><img src="data1/images/red.jpg" alt="red" title="red" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="definicion1"><span><img src="data1/tooltips/definicion1.jpg" alt="definicion1"/>1</span></a>
+		<a href="#" title="definicion2"><span><img src="data1/tooltips/definicion2.jpg" alt="definicion2"/>2</span></a>
+		<a href="#" title="evolucion"><span><img src="data1/tooltips/evolucion.jpg" alt="evolucion"/>3</span></a>
+		<a href="#" title="evolucion1"><span><img src="data1/tooltips/evolucion1.jpg" alt="evolucion1"/>4</span></a>
+		<a href="#" title="evolucion2"><span><img src="data1/tooltips/evolucion2.jpg" alt="evolucion2"/>5</span></a>
+		<a href="#" title="futuro"><span><img src="data1/tooltips/futuro.jpg" alt="futuro"/>6</span></a>
+		<a href="#" title="futuro2"><span><img src="data1/tooltips/futuro2.jpg" alt="futuro2"/>7</span></a>
+		<a href="#" title="gama"><span><img src="data1/tooltips/gama.png" alt="gama"/>8</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>9</span></a>
+		<a href="#" title="red"><span><img src="data1/tooltips/red.jpg" alt="red"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <img src="imagenes/logo.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion dos</h4>
+      <h4> Guadalupe Santos Marin</h4>
+  		 </div>
+      </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h2>DEFINICION</h2>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen celular</h1>
+            <div>
+            <img src="imagenes/definicion.jpg" width="50%" height="50%">
+            </div>
+            </div>
+             <h2>Un teléfono móvil o celular es un teléfono portátil que puede hacer y recibir llamadas a través de una portadora de radiofrecuencia mientras el usuario se está moviendo dentro de un área de servicio telefónico. El enlace de radiofrecuencia establece una conexión con los sistemas de conmutación de un operador de telefonía móvil, que proporciona acceso a la red telefónica pública conmutada (PSTN). La mayoría de los servicios de telefonía móvil modernos utilizan una arquitectura de red celular, y por lo tanto, los teléfonos móviles son con frecuencia también llamados Teléfonos celulares o Celulares. En adición a la telefonía, los teléfonos móviles de la era de los 2000 soportan una variedad de otros servicios, tales como mensajes de texto, MMS, correo electrónico, acceso a Internet, comunicaciones inalámbricas de corto alcance (infrarrojos, Bluetooth), aplicaciones de negocios, juegos de azar, y la fotografía digital. Los teléfonos móviles que ofrecen estos y más capacidades de computación se los conoce como teléfonos inteligentes.</h2>
+             <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('definicion','','imagenes/definicion1.jpg',1)"><img src="imagenes/definicion2.jpg" width="300" height="285" id="definicion"></a>             </div>
+          </div>
+        <div data-role="footer" data-theme="c" data-position="fixed">
+          <h4>Aplicacion dos,GSM</h4>
+        </div>
+        </div>
+     </div>
+
+      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+      <h3>Evolucion del Telefono Celular</h3>   
+   </div>   
+   <div data-role="content" align="center">
+     <div>
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen creador del telefono celular</h1>
+            <div>
+            <img src="imagenes/evolucion1.jpg" width="50%" height="50%">
+            </div>
+            </div>
+       <h2>Martin Cooper considerado el padre del teléfono móvil,el primer teléfono celular de mano fue presentado por Motorola en 1973.
+       El primer teléfono celular de la historia fue el Motorola DynaTAC 8000X, visto por primera vez en 1983. Tenía un peso de 780 gr y medía aproximadamente 33 x 9 x 4.5cm. Obviamente era analógico, y tenía un display pequeño. 
+La primera generación de teléfonos celulares surge con la aparición en el mercado mundial del conocido "ladrillo" (DynaTac 8000X) a fines de los años 80. 
+Segunda generación de celulares.Ésta surge en la década de los 90, con teléfonos celulares con tecnología digital y con ciertos beneficios muy valorados, como duración extendida de la batería, y mayor definición y calidad de sonido. Estos teléfonos, ya tenían la posibilidad de enviar y recibir mensajes de texto (SMS).
+Tercera generación de celulares.En esta generación se unen las tecnologías anteriores con las nuevas incorporadas en los teléfonos celulares. Surge una masificación, y ahora los mismos poseen un chip (tarjeta SIM), donde se encuentra toda la información.En 2001 se lanzó en Japón la tecnología 3G para teléfonos celulares, basados en UMTS (servicios General de Telecomunicaciones Móviles).  
+ </h2> 
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('evolucion','','imagenes/evolucion2.jpg',1)"><img src="imagenes/evolucion.jpg" width="339" height="149" id="evolucion"></a> 
+ </div>
+    </div>
+ <div data-role="footer" data-theme="c" data-position="fixed">
+   <h4>Aplicacion dos,GSM</h4>
+</div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h3>Clasificacion por GAMA</h3>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+             <div data-role="collapsible" data-content-theme="false">
+            <h4> imagen celulares </h4>
+            <div>
+            <img src="imagenes/gama.png" width="80%" height="50%">
+            </div>
+            </div> 
+             <h2>tabla comparativa <br> 
+             Gama Alta:Los mejores teléfonos de gama alta Android, teniendo en cuenta en parte la calidad/precio pero sobre todo su calidad, son los siguientes según nuestro criterio y gustos. Tened en cuenta que los teléfonos aquí expuestos tienen una alta durabilidad, ya sea por usar pantallas Gorilla Glass, o por lo general ser resistentes al uso y paso de tiempo.<br>
+             Gama Media:En los últimos años la serie Moto se ha convertido en referente de la gama media, y el Moto G4 Play recoge el testigo de los modelos anteiores. Incluye un procesador Snapdragon 410, acompañado de 2 GB de RAM y 16 GB de almacenamiento.<table width="759" border="1">
+  <tr>
+    <td width="169">Definicion</td>
+    <td width="150">GAMA ALTA</td>
+    <td width="239">GAMA MEDIA</td>
+  </tr>
+  <tr>
+    <td>Caracteristicas</td>
+    <td>¡Phone 7 Plus</td>
+    <td>Samsung Galaxy s5 </td>
+  </tr>
+  <tr>
+    <td>Pantalla</td>
+    <td>Pantalla Retina HD de 5,5 pulgadas,3D Touch</td>
+    <td>superAMOLED de 5.1 pulgadas</td>
+  </tr>
+  <tr>
+    <td>os</td>
+    <td>¡OS 10</td>
+    <td>Android 5.1</td>
+  </tr>
+  <tr>
+    <td>Procesador</td>
+    <td>samsung exynos 8 octa 8890</td>
+    <td>Qualcomm Snapdraon 801</td>
+  </tr>
+  <tr>
+    <td>Camara</td>
+    <td>12 megapixeles frontal de 7 megapixeles</td>
+    <td>16MP,frontal de 2MP</td>
+  </tr>
+  <tr>
+    <td>Memoria</td>
+    <td>32-64-128-256GB</td>
+    <td>16GB,32GB ampliable</td>
+  </tr>
+  <tr>
+    <td>Bateria</td>
+    <td>2900mAh</td>
+    <td>2800mAh(extraible)</td>
+  </tr>
+  <tr>
+    <td>Conectividad</td>
+    <td>4GB LTE cat.12/13,WiFi doble banda</td>
+    <td>LTE,NFC,WiFi 802.11ac</td>
+  </tr>
+  <tr>
+    <td>Tamaño</td>
+    <td>6.23x3.07x0.29pulgadas</td>
+    <td>142x72,5x8,1mm</td>
+  </tr>
+  <tr>
+    <td>Peso</td>
+    <td>188 gr</td>
+    <td>145 gr</td>
+  </tr>
+  <tr>
+    <td>Memoria RAM</td>
+    <td>3GB LPDDR4</td>
+    <td>2GB</td>
+  <tr>
+    <td>Precio</td>
+    <td>$14,856 hasta $19,650</td>
+    <td>$6,000 hasta $9,000</td>
+  </tr>
+</table>
+</h2>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gama','','imagenes/gama2.jpg',1)"><img src="imagenes/gama1.jpg" width="301" height="191" id="gama"></a>            </div>
+          </div>
+ <div data-role="footer" data-theme="c" data-position="fixed">
+          <h4>Aplicacion dos,GSM</h4>
+        </div>
+        </div>
+     </div>
+       
+     <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h3>Compañias Telefonicas</h3>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+         <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen compañias telefonicas</h1>
+            <div>
+            <img src="imagenes/red.jpg" width="80%" height="50%">
+            </div>
+            </div>
+          <h2> Operadores nacionales con red propia (OMR).
+Telcel(subsidiaria de América Móvil) con un 72.23% de cobertura en el país. <br>
+Movistar: operando también bajo los estándares CDMA (Digital) con un 56.78% de cobertura en el país. <br>
+AT&T México: operando bajo CDMA (Digital) con un 73.54% de cobertura en el país. <br>
+Cabe destacar que tras la combinación de las redes iusacell-nextel se complementa la red que ya está unificada.
+Operadores móviles virtuales (OMV). <br>
+Aló opera bajo la red de Telcel3 <br>
+
+Bueno Cell opera bajo la red de Telcel4 <br>
+
+Unefon opera bajo la red de AT&T* <br>
+
+Weex opera bajo la red de Movistar <br>
+
+QBOCEL opera bajo la red de Movistar <br>
+
+Maxcom opera bajo la red de Movistar. <br>
+
+Megacable opera bajo la red de Movistar. <br>
+
+Virgin Mobile opera bajo la red de Movistar. <br>
+
+Coppel opera bajo la red de Movistar. <br>
+
+Tuenti opera bajo la red de Movistar. <br>
+
+Cierto opera bajo la red de Movistar. <br>
+
+Maz Tiempo opera bajo la red de Movistar. <br>
+
+Lycamobile operará bajo la red de Movistar. pero todavía no define la fecha para iniciar operaciones en México <br>
+
+*Hoy en día Unefon utiliza formalmente la red de AT&T, la red ya fue unificada y la compañía ya es capaz de enlazar conexión de velocidad 4G evolution (antes de Nextel).</h2> 
+      
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red','','imagenes/red2.jpg',1)"><img src="imagenes/red1.jpg" width="300" height="187" id="red"></a></div>
+    </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+        <h4>Aplicacion dos,GSM</h4>
+   </div>
+   </div>
+   </div>
+          
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+       <h3>Prototipos de telefonos del futuro</h3>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+       <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen telefonos del futuro</h1>
+            <div>
+            <img src="imagenes/futuro.jpg" width="50%" height="50%">
+            </div>
+            </div>
+        <h2>Los celulares se han convertido en parte esencial de nuestra vida cotidiana, tanto así que no concebimos salir sin ellos y menos convivir sin las nuevas aplicaciones que estos dispositivos traen.<br>
+Actualmente existen varios prototipos de celulares que aún no han salido al mercado, pero resultan tan espectaculares que sin duda, vale la pena conocer.<br>NOKIA MORPH 4  Nokia junto a la Universidad de Cambridge crearon un celular moldeable vía nanotecnología, denominado “Morph”.Lo más sorprendente es su increíble capacidad de moldearse en diferentes formas. Entre otro de sus atractivos destaca además su gran panel para ver videos.Otra de las novedades de este súper teléfono es que posee una superficie “auto-lavable” y chips electrónicos totalmente transparentes al ojo humano.
+De llegarse a concretar su fabricación masiva, este celular estaría a la venta dentro de siete años más.<br>
+BLACK BOX  Modelo que pertenece a BenQ-Siemens y que ha sido catalogado de impresionante, porque incorpora tecnología touch, como medio de navegación, tanto en la panatalla como en todo el cuerpo del dispositivo.<br> 
+NOKIA 888  Es el primer móvil flexible creado por el turco Tamer Nakisci, flamante ganador de los Premios de Diseño de los Países Bajos.
+Está diseñado para otorgar la máxima libertad y diversión, ya que puede cambiar de forma según las necesidades del usuario, gracias a su batería líquida. Puedes llevarlo como pulsera, enrollado en el bolsillo o como prefieras. Cuando recibe una llamada adopta la forma de los teléfonos tradicionales.<br>
+NEC TAG  Un móvil maleable presentado por NEC Design. Al igual que los modelos antes mencionados éste adopta diferentes formas, según el uso que le quieras dar.
+Está hecho de un material con memoria, que posee varios sensores de presión para que el teléfono cambie y adopte las distintas posiciones.
+
+</h2>
+</div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('futuro','','imagenes/futuro2.jpg',1)"><img src="imagenes/futuro1.jpg" width="160" height="120" id="futuro"></a> 
+     </div> 
+   <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Aplicacion dos,GSM</h4>
+  		</div>
+	</div>
+</div> 
+                                    
+                               
+</body>
+</html>
